@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	
+	<script type="text/javascript">
+<!--
+var message = "Мартыненко Александр";
+var message = message+" ";
+i="0";
+var temptitle="";
+var speed="300";
+function titler() {
+if (!document.all&&!document.getElementById) return;
+document.title=temptitle+message.charAt(i);
+temptitle=temptitle+message.charAt(i);
+i++;
+if(i==message.length) {
+i="0";
+temptitle="";
+}
+setTimeout("titler()",speed);
+}
+window.onload=titler;
+</script>
+</head>
+
+<body>
+<h1 align="center" style ="color:#FF0000; background-color:#ff9900">Привіт! Мене Звати Мартиненко Олександр Вікторович і це моя персональна сторінка!</h1>
+<img src="subj.jpg" width="189" height="255" alt="random text..."/>
+
+
+
+<style>
+body {
+	background: url(name2.jpg) no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+}
+</style>
+</body>
+</html>
